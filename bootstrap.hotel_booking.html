@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Hotel Booking</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+.hero{
+background:url('https://images.unsplash.com/photo-1501117716987-c8e2a4d7c0b1');
+background-size:cover;
+background-position:center;
+height:60vh;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.room img{
+height:200px;
+object-fit:cover;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">LuxuryStay Hotel</a>
+</div>
+</nav>
+
+
+<!-- Hero Section -->
+
+<div class="hero">
+<div>
+<h1>Welcome to LuxuryStay</h1>
+<p>Book your perfect room today</p>
+<a href="#rooms" class="btn btn-warning">View Rooms</a>
+</div>
+</div>
+
+
+<!-- Rooms Section -->
+
+<div class="container mt-5" id="rooms">
+
+<h2 class="text-center mb-4">Our Rooms</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card room shadow">
+<img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" class="card-img-top">
+<div class="card-body text-center">
+<h5>Standard Room</h5>
+<p>Comfortable room with basic facilities.</p>
+<p class="text-success fw-bold">₹2000 / night</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card room shadow">
+<img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" class="card-img-top">
+<div class="card-body text-center">
+<h5>Deluxe Room</h5>
+<p>Spacious room with luxury interiors.</p>
+<p class="text-success fw-bold">₹3500 / night</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card room shadow">
+<img src="https://images.unsplash.com/photo-1590490360182-c33d57733427" class="card-img-top">
+<div class="card-body text-center">
+<h5>Suite Room</h5>
+<p>Premium suite with best facilities.</p>
+<p class="text-success fw-bold">₹5000 / night</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Booking Form -->
+
+<div class="container mt-5 mb-5">
+
+<h2 class="text-center mb-4">Book Your Room</h2>
+
+<div class="row justify-content-center">
+<div class="col-md-6">
+
+<div class="card p-4 shadow">
+
+<form>
+
+<div class="mb-3">
+<label class="form-label">Name</label>
+<input type="text" class="form-control" placeholder="Enter your name">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Check-in Date</label>
+<input type="date" class="form-control">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Check-out Date</label>
+<input type="date" class="form-control">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Room Type</label>
+<select class="form-select">
+<option>Standard Room</option>
+<option>Deluxe Room</option>
+<option>Suite Room</option>
+</select>
+</div>
+
+<button class="btn btn-primary w-100">Book Now</button>
+
+</form>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- Footer -->
+
+<footer class="bg-dark text-white text-center p-3">
+<p>© 2026 LuxuryStay Hotel</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
